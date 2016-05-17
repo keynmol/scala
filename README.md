@@ -42,9 +42,10 @@ Update your `build.sbt` with:
 scalaVersion := "2.11.3-typelevel"
 
 libraryDependencies += "org.scala-lang" % "scala-typelevel" % scalaVersion.value
+```
 
-  - Run `ant init` to download some necessary jars.
-  - Import the project (in `src/eclipse`) via `File` → `Import Existing Projects into Workspace`. Check all projects and click ok.
+- Run `ant init` to download some necessary jars.
+- Import the project (in `src/eclipse`) via `File` → `Import Existing Projects into Workspace`. Check all projects and click ok.
 
 For important details on building, debugging and file encodings, please see [the excellent tutorial on scala-ide.org](http://scala-ide.org/docs/tutorials/scalac-trunk/index.html) and the included README.md in src/eclipse.
 
